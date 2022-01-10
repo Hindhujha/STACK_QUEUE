@@ -15,6 +15,11 @@ namespace Stack_Queue
             stack.Push(70);
             stack.Push(30);
             stack.Push(56);
+            //peeking values in stack
+            Console.WriteLine("PEEKING STACK:" + stack.Peek());
+            stack.Pop();
+            //After Removing elements from stack
+            Console.WriteLine(stack.Peek());
 
         }
     }
