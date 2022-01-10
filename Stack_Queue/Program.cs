@@ -28,6 +28,8 @@ namespace Stack_Queue
             queue.Enqueue(30);
             queue.Enqueue(70);
             Console.WriteLine(queue.Peek());
+            queue.Dequeue();
+            Console.WriteLine(queue.Peek());
 
         }
     }
